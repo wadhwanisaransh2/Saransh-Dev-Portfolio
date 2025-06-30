@@ -1,0 +1,329 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">Saransh's Portfolio</div>
+                <div class="right">
+                    <ul>    
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Certifcates</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Skills</a></li>
+                        <li><a href="/">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">Hi, My name is <span class="purple">Saransh</span> 
+                    <div>
+                    and I m a passionate
+                    </div>
+                    <div>Web Developer</div>
+                    <span id="element"></span><br>
+                    <button class="download-btn"><i class="fa-solid fa-file"></i> &nbsp;&nbsp;Download CV</button>
+                    <button class="git-btn"><i class="fa-brands fa-github"></i> &nbsp; Visit GitHub</button>
+                </div>
+                <div class="rightsection">
+                <img src="\PPPROJECTS\PortfolioWebsite\Developer.png" alt="Developer">
+                </div>
+            </section>
+        <hr>
+            <section class="secondsection">
+                <span class="text-gray">What I have learn so far</span>
+                <h1>Work Experience</h1>
+               
+                <div class="box">
+                    <div class="vertical">
+                <img class="image-top" src="\PPPROJECTS\PortfolioWebsite\develper2.png" alt="Developer2">
+                <div class="vertical-title">Frontend Developer(2024-2025)</div>
+                <div class="vertical-desc">Built responsive UIs using HTML, CSS & JavaScript, focusing on layout, accessibility, and user experience.</div>
+                    </div>
+                    <div class="vertical">
+                          <img style="width: 125px;  left: -62px;   " class="image-top" src="\PPPROJECTS\PortfolioWebsite\png-transparent-node-js-javascript-software-developer-express-js-computer-software-node-js-logo-nodejs-software-development-removebg-preview.png" alt="Developer2">
+                <div class="vertical-title">NodeJS Developer(2024-2025)</div>
+                <div class="vertical-desc">Developed backend APIs using Node.js & Express. Handled routing, middleware, and server-side logic.</div>
+                    </div>
+                    <div class="vertical">
+                          <img style="top:-60px ; left: -25px; height: 50px; width: 50px;" class="image-top" src="\PPPROJECTS\PortfolioWebsite\pyhton-removebg-preview.png" alt="Developer2">
+                <div style="top: 50px;" class="vertical-title">Python Developer (2024-2025)</div>
+                <div style="top:60px;" class="vertical-desc">Built automation scripts, small web apps, and explored libraries like Pandas, NumPy, and Flask.</div>
+                    </div>
+                    <div class="vertical">
+                          <img class="image-top" src="\PPPROJECTS\PortfolioWebsite\DSA-removebg-preview.png" alt="Developer2">
+                <div class="vertical-title">DSA Enthusiast (2024-2026)</div>
+                <div class="vertical-desc">Solved 300+ problems on platforms like LeetCode and GFG, focusing on time-space optimization & core algorithms.</div>
+                    </div>
+                    <div class="vertical">
+                          <img style="left: -115px; width: 220px;" class="image-top" src="\PPPROJECTS\PortfolioWebsite\GIt_Github-removebg-preview.png" alt="Developer2">
+                <div class="vertical-title">Git & GitHub Specialist(2025 - 2026)</div>
+                <div class="vertical-desc">Proficient in version control. Managed branches, pull requests, and collaborated on multiple open-source repos.</div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+  <section class="certifications" id="certifications">
+  <span class="text-gray">For what I am certified</span>
+  <h1>My Certifications</h1>
+
+  <div class="cert-collect">
+    <div class="certificate-card">
+      <h3>Fork C++ -     GFG</h3>
+      <button class="cert-btn" onclick="openCertificate('certificates/fork_cpp_gfg.pdf')">
+        <i class="fa-solid fa-file-pdf"></i> View Certificate
+      </button>
+    </div>
+
+    <div class="certificate-card">
+      <h3>DSA 160 Days - GFG</h3>
+      <button class="cert-btn" onclick="openCertificate('certificates/dsa_160days_gfg.pdf')">
+        <i class="fa-solid fa-file-pdf"></i> View Certificate
+      </button>
+    </div>
+
+    <div class="certificate-card">
+      <h3>IBM SkillsBuild - CSRBOX Internship</h3>
+      <button class="cert-btn" onclick="openCertificate('certificates/csrbox_ibm_skillsbuild.pdf')">
+        <i class="fa-solid fa-file-pdf"></i> View Certificate
+      </button>
+    </div>
+
+    <div class="certificate-card">
+      <h3>Deloitte - Data Analytics Simulation</h3>
+      <button class="cert-btn" onclick="openCertificate('certificates/deloitte_data_analytics.pdf')">
+        <i class="fa-solid fa-file-pdf"></i> View Certificate
+      </button>
+    </div>
+
+    <div class="certificate-card">
+      <h3>Winter Micro Internship - CSRBOX</h3>
+      <button class="cert-btn" onclick="openCertificate('certificates/winter_micro_internship_ibm.pdf')">
+        <i class="fa-solid fa-file-pdf"></i> View Certificate
+      </button>
+    </div>
+
+    <div class="certificate-card">
+      <h3>Red Hat System Admin I (RH124)</h3>
+      <button class="cert-btn" onclick="openCertificate('certificates/red_hat_rh124.pdf')">
+        <i class="fa-solid fa-file-pdf"></i> View Certificate
+      </button>
+    </div>
+  </div>
+</section>
+<br><br>
+<hr>
+
+<section class="skills">
+    <span class="text-gray">Skills Which I Have Grabbed Till Now</span>
+    <h1>My Skills</h1>
+    <div class="skills-collect">
+        <div class="card-skill">
+            <h3>SQL</h3>
+        </div>
+        <div class="card-skill">
+            <h3>MERN Stack</h3>
+        </div>
+        <div class="card-skill">
+            <h3>Flask</h3>
+        </div>
+        <div class="card-skill">
+            <h3>Django</h3>
+        </div>
+        <div class="card-skill">
+            <h3>Python</h3>
+        </div>
+        <div class="card-skill">
+            <h3>Java</h3>
+        </div>
+        <div class="card-skill">
+            <h3>C++</h3>
+        </div>
+        <div class="card-skill">
+            <h3>C</h3>
+        </div>
+        <div class="card-skill">
+            <h3>Database Management</h3>
+        </div>
+        <div class="card-skill">
+            <h3>Computer Networks</h3>
+        </div>
+        <div class="card-skill">
+            <h3>OOPS</h3>
+        </div>
+    </div>
+</section>
+<br><br>
+<hr>
+<section class="projects-section" id="projects">
+  <h2 class="projects-heading">✨ Featured Projects</h2>
+  <p class="projects-subtext">Here are some creative and technical builds I'm proud of</p>
+
+  <div class="projects-grid">
+
+    <!-- 1. Simon Says -->
+    <div class="project-card">
+      <div class="project-content">
+        <h3>🎮 Simon Says Game</h3>
+        <p>Classic memory game rebuilt using front-end magic. Color sequences challenge your brain.</p>
+        <span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</span>
+        <div class="project-links">
+          <a href="#" target="_blank" class="live-btn">Live Demo</a>
+          <a href="#" target="_blank" class="code-btn">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Guess the Number -->
+    <div class="project-card">
+      <div class="project-content">
+        <h3>🎯 Guess the Number</h3>
+        <p>A fun number guessing game with scoring logic, alerts, and input validation.</p>
+        <span class="badge">JavaScript</span>
+        <div class="project-links">
+          <a href="#" target="_blank" class="live-btn">Live Demo</a>
+          <a href="#" target="_blank" class="code-btn">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. To-Do List -->
+    <div class="project-card">
+      <div class="project-content">
+        <h3>📝 To-Do List</h3>
+        <p>Daily planner with edit/delete features and localStorage support. Simple yet powerful.</p>
+        <span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JS</span>
+        <div class="project-links">
+          <a href="#" target="_blank" class="live-btn">Live Demo</a>
+          <a href="#" target="_blank" class="code-btn">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Weather App -->
+    <div class="project-card">
+      <div class="project-content">
+        <h3>🌦️ Weather App</h3>
+        <p>Fetches real-time weather data using OpenWeather API. Clean UI, animated display.</p>
+        <span class="badge">API</span><span class="badge">JavaScript</span>
+        <div class="project-links">
+          <a href="#" target="_blank" class="live-btn">Live Demo</a>
+          <a href="#" target="_blank" class="code-btn">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Job Portal Project -->
+<div class="project-card">
+  <div class="project-content">
+    <h3>💼 Job Portal</h3>
+    <p>Full-stack web application where users can post and apply for jobs. Features user auth, job filters, and dashboards.</p>
+    <span class="badge">Node.js</span>
+    <span class="badge">Express.js</span>
+    <span class="badge">MongoDB</span>
+    <div class="project-links">
+      <a href="#" target="_blank" class="live-btn">Live Demo</a>
+      <a href="#" target="_blank" class="code-btn">Code</a>
+    </div>
+  </div>
+</div>
+
+    <!-- 6. Spotify Clone -->
+    <div class="project-card">
+      <div class="project-content">
+        <h3>🎵 CSS Spotify Clone</h3>
+        <p>A beautiful static Spotify web player clone using only HTML & CSS. Fully responsive UI!</p>
+        <span class="badge">HTML</span><span class="badge">CSS</span>
+        <div class="project-links">
+          <a href="#" target="_blank" class="live-btn">Live Demo</a>
+          <a href="#" target="_blank" class="code-btn">Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<br><br>
+<hr>
+<!-- 👇 Contact Me Section -->
+<section class="contact-me-section" id="contact">
+  <h2 class="contact-heading">Let's Connect!</h2>
+  <p class="contact-subtext">Feel free to reach out through any platform below</p>
+
+  <div class="social-cards">
+    <div class="social-card">
+      <i class="fa-solid fa-envelope"></i>
+      <h3>Email</h3>
+      <p><a href="mailto:saransh@example.com">saransh@example.com</a></p>
+    </div>
+
+    <div class="social-card">
+      <i class="fa-brands fa-linkedin"></i>
+      <h3>LinkedIn</h3>
+      <p><a href="https://linkedin.com/in/saransh" target="_blank">linkedin.com/in/saransh</a></p>
+    </div>
+
+    <div class="social-card">
+      <i class="fa-brands fa-github"></i>
+      <h3>GitHub</h3>
+      <p><a href="https://github.com/saransh" target="_blank">github.com/saransh</a></p>
+    </div>
+
+    <div class="social-card">
+      <i class="fa-brands fa-twitter"></i>
+      <h3>Twitter</h3>
+      <p><a href="https://twitter.com/saransh" target="_blank">@saransh</a></p>
+    </div>
+
+    <div class="social-card">
+      <i class="fa-solid fa-phone"></i>
+      <h3>Phone</h3>
+      <p><a href="tel:+919999999999">+91 99999 99999</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 👇 Footer Section -->
+<footer class="footer">
+  <div class="footer-content">
+    <h2 class="footer-title">Thanks for Visiting!</h2>
+    <p class="footer-tagline">Crafted with 💖 by Saransh Wadhwani | Let's connect and build something amazing!</p>
+
+    <div class="footer-socials">
+      <a href="https://github.com/saransh" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/saransh" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:saransh@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <p class="footer-bottom">© 2025 <span>Saransh's Portfolio</span>. All rights reserved.</p>
+  </div>
+</footer>
+        </main>
+        <script src="app.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+    var typed = new Typed('#element', {
+        strings: ['Full Stack Developer 💻', 'Python Developer 🐍', 'AI/ML Enthusiast 🤖', 'Tech Explorer 🚀'],
+        typeSpeed: 70,
+        backSpeed: 40,
+        backDelay: 1200,
+        loop: true,
+        smartBackspace: true,
+        showCursor: true,
+        cursorChar: '|'
+    });
+    </script>
+    </body>
+    </html>
